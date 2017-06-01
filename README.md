@@ -8,7 +8,7 @@ A telegram bot based on a finite state machine
 	若選取了歌曲，Bot就會傳送您所選取的歌曲給您。
 ### 用法
 執行程式後，連接到 **`@amyabot`**。
-輸入 **`start`** 開始進行對談。
+輸入 **`/start`** 開始進行對談。
 
 ![](http://i.imgur.com/7pzdmE0.png)
 

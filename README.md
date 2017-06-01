@@ -9,8 +9,27 @@ A telegram bot based on a finite state machine
 ### 用法
 執行程式後，連接到 **`@amyabot`**。
 輸入 **`start`** 開始進行對談。
+
+![](http://i.imgur.com/7pzdmE0.png)
+
 可以選取中文、英文、法文三種語言，選取語言後bot會回傳歌單，每個語言有五首歌曲可以選擇，使用者可以選擇要那一首歌或取消此次選取。
-若選取歌曲bot就會回傳該首歌曲，並出現 **`Finish`** 選項，點選Finish選項後，會再次確認是否要進行新的選取，點選 **`Yes`** 後，就會回到選取語言的狀態。若中間有選取 **`Cancel`** 選項，就會跑到是否進行新的選取的狀態，點選Yes後回到選取語言的狀態。
+
+![](http://i.imgur.com/s5coS6G.png)
+
+若選取歌曲bot就會回傳該首歌曲
+![](http://i.imgur.com/ApfEuFf.png)
+
+並出現 **`Finish`** 選項，
+
+![](http://i.imgur.com/echASOf.png)
+
+點選Finish選項後，會再次確認是否要進行新的選取(若中間有選取 **`Cancel`** 選項也是跑到此狀態)
+
+![](http://i.imgur.com/sCMTyzd.png)
+
+點選 **`Yes`** 後，就會回到選取語言的狀態，就會跑到確認是否進行新的選取的狀態，點選Yes後回到選取語言的狀態。
+
+![](http://i.imgur.com/3lR45Ld.png)
 
 ## Detail about how to run you code
 ```sh

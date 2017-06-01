@@ -14,7 +14,7 @@ class TocMachine(GraphMachine):
             text = update.message.text
         else:
             text = "none";
-        return text.lower() == 'start'
+        return text.lower() == '/start'
 
     def go_english(self, update):
         if(update.message!=None):
